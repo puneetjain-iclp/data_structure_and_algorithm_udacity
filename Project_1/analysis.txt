@@ -1,0 +1,33 @@
+Puneet Jain
+
+'''
+Disclaimer only the Time Complexity which varies is considered all constanct timed operation 
+are not considered when calculating
+'''
+
+** Task0.py **
+The Time complexity is O(1) is  constant
+The time-complexity for this program is O(1) because we are not iterating the elements from input lists (calls or texts). We are accessing the first and last value from the lists (calls and texts) by an index.
+
+
+** Task1.py **
+The Time complexity is O(n)
+2 python for loops on line 35 and 36 (in side the function) with complexity O(n)
+1 update command in python list with complexity O(n)
+
+** Task2.py **
+The Time complexity is O(n)
+1 python for loops on line 41  (in side the function) with complexity O(n)
+1 max function with complexity O(n)
+
+
+** Task3.py **
+The Time complexity is O(nlogn)
+2 python for loops on line 64 (in side the function) and 71
+1 python sort (has O(nlogn) complexity) on line 66
+
+** Task4.py **
+The Time complexity is O(nlogn)
+2 python for loops on line 54 and 41 (in side the function)
+1 python set subtract command (line 63 64 65)
+1 python sort (has O(nlogn) complexity)
